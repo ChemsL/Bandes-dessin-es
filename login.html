@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Les BD</title>
+  </head>
+
+  <body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="https://previews.123rf.com/images/fleren/fleren1703/fleren170300022/74282350-logo-de-pop-art-bang-affiche-de-style-r%C3%A9tro-illustration-de-pop-art-vectoriel-logo-de-style-bande.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            FULLBD
+          </a>
+          <i class="bi bi-basket"></i>
+        </div>
+      </nav>
+
+      <form action="">
+        <label for="">Nom</label>
+        <input type="text" id="inputNom">
+        <label for="">Prénom</label>
+        <input type="text" id="inputPrenom">
+        <label for="">Adresse mail</label>
+        <input type="text" id="inputMail">
+        <label for="">Adresse postale</label>
+        <input type="text" id="inputAdresse">
+        <label for="">Numéro de téléphone</label>
+        <input type="number" id="inputNumber">
+
+      <label for="firstPw">Choisi un mot de passe</label>
+      <input type="password" placeholder="password" id="firstPw"><button><i class="bi bi-eye" id="btnShow1"></i></button>
+      <label for="scdPw">Confirmation du mot de passe!</label>
+      <input type="password" placeholder="confirm new password" id="scdPw"><button><i class="bi bi-eye" id="btnShow2"></i></button>
+  <button id="btnInscription">S'inscrire</button>
+  <div id="errorpassword" class="text-danger">Erreur : tes mots de passe ne respectent pas les conditions</div>
+  <div id="passwordStrength" class="text-warning bg-secondary"></div>
+  <div class="listecara">
+  <p>
+    Votre mot de passe doit :
+      <ul>
+          <li id="liMaj">Contenir une majuscule</li>
+          <li>Contenir une minuscule</li>
+          <li>Contenir un caractère spécial</li>
+          
+      </ul>
+  </p>
+  </div>
+</form>
+<button id="siteBD">laBD</button>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/inscription.js"></script>
+  </body>
+</html>
